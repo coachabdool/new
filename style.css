@@ -25,17 +25,17 @@ header h2{
 	color: white;
 }
 
-header p{
+#first{
     text-align: center;
 	text-transform: uppercase;
 	font-size: 2.5rem;
 }
 
-.section{
-    
-background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
- background-blend-mode: multiply,multiply;
+header p{
+	font-style: oblique;
+	font-size: 2rem;
 }
+
 
 .section a{
     background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
@@ -49,20 +49,17 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.1
 .columns{
     /* background-color: #f4f4f4; */
     font-style: italic;
-    font-variant: small-caps;
+    /* font-variant: small-caps; */
     text-align: justify;
+	font-size: 1.5rem;
     
 }
 
-main{
-	background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
- background-blend-mode: normal, lighten, soft-light;
-}
 
-main h6{
+main h4{
     margin-top: 20px;
     /* border: 1px dotted black; */
-    color: royalblue;
+    color: red;
 }
 
 #btn-down{
